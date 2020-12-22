@@ -1,3 +1,5 @@
 import getData from "./lib/service";
 
-getData(1);
+let data = getData(1);
+
+data.then((result) => console.log(result));
